@@ -1993,5 +1993,5 @@ const flashcards: Flashcard[] = [
     "rotation": "Enfermedades Infecciosas",
     "difficulty": "media"
   },
-  
+];  
 export default flashcards;

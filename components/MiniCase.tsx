@@ -44,8 +44,8 @@ const MiniCase: React.FC<MiniCaseProps> = ({ data }) => {
         {/* Front of the card */}
         <div className="front absolute w-full h-full">
           <div className="flex flex-col p-6 bg-white rounded-xl shadow-lg h-full border border-slate-200 overflow-y-auto">
-            <h3 className="text-xl font-bold text-slate-800 text-center mb-2">{data.term}</h3>
-            <p className="text-slate-600 mb-4">{data.definition}</p>
+            {/* <h3 className="text-xl font-bold text-slate-800 text-center mb-2">{data.term}</h3> */}
+            <p className="text-slate-600 mb-4">{data.definition} Sugestivo de {data.term}. ¿Cuál de las siguientes es la opción correcta?</p>
             <div className="space-y-3 mt-auto">
               {data.quizOptions.map((option) => (
                 <button

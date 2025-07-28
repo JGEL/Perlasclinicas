@@ -259,11 +259,11 @@ const miniCases: MiniCase[] = [
     term: "Diarrea del viajero",
     definition: "Hombre de 35 años, tras viaje a India, presenta diarrea acuosa, dolor abdominal y fiebre baja.",
     quizOptions: [
-      { id: "A", text: "Azitromicina" },
-      { id: "B", text: "Amoxicilina" },
+      { id: "A", text: "Amoxicilina" },
+      { id: "B", text: "Azitromicina" },
       { id: "C", text: "Metronidazol" }
     ],
-    correctAnswerId: "A",
+    correctAnswerId: "B",
     clinicalPearl: "La azitromicina es el antibiótico de elección en diarrea del viajero, especialmente en Asia por resistencia a quinolonas.",
     rotation: "Enfermedades Infecciosas",
     difficulty: "media"
@@ -273,11 +273,11 @@ const miniCases: MiniCase[] = [
     term: "Sífilis primaria",
     definition: "Hombre de 29 años, úlcera indolora en pene y adenopatía inguinal no dolorosa. Serología positiva para Treponema pallidum.",
     quizOptions: [
-      { id: "A", text: "Penicilina G benzatina IM dosis única" },
+      { id: "A", text: "Doxiciclina" },
       { id: "B", text: "Ceftriaxona" },
-      { id: "C", text: "Doxiciclina" }
+      { id: "C", text: "Penicilina G benzatina IM dosis única" }
     ],
-    correctAnswerId: "A",
+    correctAnswerId: "C",
     clinicalPearl: "La penicilina G benzatina intramuscular en dosis única es el tratamiento de elección para la sífilis primaria.",
     rotation: "Enfermedades Infecciosas",
     difficulty: "media"
@@ -287,11 +287,11 @@ const miniCases: MiniCase[] = [
     term: "Dolor torácico típico en reposo",
     definition: "Varón de 58 años, hipertenso y fumador, presenta dolor torácico opresivo en reposo, irradiado a brazo izquierdo, de 30 minutos de duración.",
     quizOptions: [
-      { id: "A", text: "Solicitar ECG y enzimas cardíacas de urgencia" },
-      { id: "B", text: "Alta con control ambulatorio" },
+      { id: "A", text: "Alta con control ambulatorio" },
+      { id: "B", text: "Solicitar ECG y enzimas cardíacas de urgencia" },
       { id: "C", text: "Administrar antiácidos y observar" }
     ],
-    correctAnswerId: "A",
+    correctAnswerId: "B",
     clinicalPearl: "El dolor torácico típico en reposo sugiere síndrome coronario agudo; requiere ECG y marcadores cardíacos inmediatos.",
     rotation: "Cardiología",
     difficulty: "media"
@@ -315,11 +315,11 @@ const miniCases: MiniCase[] = [
     term: "Edema maleolar bilateral",
     definition: "Varón de 68 años, antecedentes de cardiopatía isquémica, consulta por edema en ambos tobillos, ortopnea y aumento de peso.",
     quizOptions: [
-      { id: "A", text: "Iniciar diurético y valorar función cardíaca" },
-      { id: "B", text: "Recomendar dieta baja en sal únicamente" },
+      { id: "A", text: "Recomendar dieta baja en sal únicamente" },
+      { id: "B", text: "Iniciar diurético y valorar función cardíaca" },
       { id: "C", text: "Solicitar radiografía de tobillo" }
     ],
-    correctAnswerId: "A",
+    correctAnswerId: "B",
     clinicalPearl: "El edema maleolar bilateral en un paciente cardiópata suele indicar insuficiencia cardíaca congestiva.",
     rotation: "Cardiología",
     difficulty: "media"
@@ -357,11 +357,11 @@ const miniCases: MiniCase[] = [
     term: "Dolor torácico atípico en mujer joven",
     definition: "Mujer de 32 años, sin factores de riesgo, dolor torácico punzante, no relacionado con el ejercicio, ECG normal.",
     quizOptions: [
-      { id: "A", text: "Alta con recomendaciones y seguimiento ambulatorio" },
-      { id: "B", text: "Ingresar para monitorización" },
+      { id: "A", text: "Ingresar para monitorización" },
+      { id: "B", text: "Alta con recomendaciones y seguimiento ambulatorio" },
       { id: "C", text: "Solicitar coronariografía urgente" }
     ],
-    correctAnswerId: "A",
+    correctAnswerId: "B",
     clinicalPearl: "El dolor torácico atípico en paciente joven y ECG normal rara vez es de origen cardíaco.",
     rotation: "Cardiología",
     difficulty: "baja"
@@ -385,11 +385,11 @@ const miniCases: MiniCase[] = [
     term: "Soplo sistólico irradiado a carótidas",
     definition: "Mujer de 78 años, disnea de esfuerzo y síncope. Soplo sistólico en foco aórtico irradiado a carótidas.",
     quizOptions: [
-      { id: "A", text: "Sospechar estenosis aórtica y solicitar ecocardiograma" },
+      { id: "A", text: "Administrar antibióticos" },
       { id: "B", text: "Iniciar anticoagulación" },
-      { id: "C", text: "Administrar antibióticos" }
+      { id: "C", text: "Sospechar estenosis aórtica y solicitar ecocardiograma" }
     ],
-    correctAnswerId: "A",
+    correctAnswerId: "C",
     clinicalPearl: "El soplo sistólico irradiado a carótidas es característico de la estenosis aórtica.",
     rotation: "Cardiología",
     difficulty: "media"
@@ -413,11 +413,11 @@ const miniCases: MiniCase[] = [
     term: "Soplo diastólico en decúbito",
     definition: "Mujer de 67 años, disnea y soplo diastólico en ápex, que aumenta en decúbito lateral izquierdo.",
     quizOptions: [
-      { id: "A", text: "Solicitar ecocardiograma para descartar insuficiencia mitral" },
-      { id: "B", text: "Iniciar tratamiento con IECA" },
+      { id: "A", text: "Iniciar tratamiento con IECA" },
+      { id: "B", text: "Solicitar ecocardiograma para descartar insuficiencia mitral" },
       { id: "C", text: "Administrar diuréticos de inmediato" }
     ],
-    correctAnswerId: "A",
+    correctAnswerId: "B",
     clinicalPearl: "El soplo diastólico en ápex es sugestivo de insuficiencia mitral o estenosis mitral; el ecocardiograma es fundamental.",
     rotation: "Cardiología",
     difficulty: "media"
@@ -497,11 +497,11 @@ const miniCases: MiniCase[] = [
     term: "Taquicardia supraventricular paroxística",
     definition: "Varón de 30 años, palpitaciones súbitas, ECG: QRS estrecho, frecuencia 180 lpm.",
     quizOptions: [
-      { id: "A", text: "Administrar adenosina en bolo" },
-      { id: "B", text: "Iniciar anticoagulación" },
+      { id: "A", text: "Iniciar anticoagulación" },
+      { id: "B", text: "Administrar adenosina en bolo" },
       { id: "C", text: "Administrar amiodarona intravenosa" }
     ],
-    correctAnswerId: "A",
+    correctAnswerId: "B",
     clinicalPearl: "La adenosina es el fármaco de elección para revertir taquicardias supraventriculares paroxísticas.",
     rotation: "Cardiología",
     difficulty: "media"
@@ -511,11 +511,11 @@ const miniCases: MiniCase[] = [
     term: "Cardiopatía isquémica silente",
     definition: "Mujer de 65 años, diabética, asintomática, ECG de control: ondas Q patológicas en cara inferior.",
     quizOptions: [
-      { id: "A", text: "Sospechar infarto previo silente" },
+      { id: "A", text: "Iniciar tratamiento antibiótico" },
       { id: "B", text: "Alta sin más estudios" },
-      { id: "C", text: "Iniciar tratamiento antibiótico" }
+      { id: "C", text: "Sospechar infarto previo silente" }
     ],
-    correctAnswerId: "A",
+    correctAnswerId: "C",
     clinicalPearl: "Las ondas Q patológicas en un ECG de control sugieren infarto previo, especialmente en diabéticos.",
     rotation: "Cardiología",
     difficulty: "media"
@@ -595,11 +595,11 @@ const miniCases: MiniCase[] = [
     "term": "Diverticulitis aguda no complicada",
     "definition": "Mujer de 62 años, dolor en fosa ilíaca izquierda, febrícula y leucocitosis. TAC: engrosamiento de sigma sin absceso.",
     "quizOptions": [
-      { "id": "A", "text": "Antibióticos orales y dieta líquida" },
-      { "id": "B", "text": "Cirugía urgente" },
+      { "id": "A", "text": "Cirugía urgente" },
+      { "id": "B", "text": "Antibióticos orales y dieta líquida" },
       { "id": "C", "text": "Alta sin tratamiento" }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "clinicalPearl": "La diverticulitis aguda no complicada se trata habitualmente con antibióticos y dieta líquida.",
     "rotation": "Cirugía General",
     "difficulty": "fácil"
@@ -609,11 +609,11 @@ const miniCases: MiniCase[] = [
     "term": "Pancreatitis aguda",
     "definition": "Varón de 50 años, dolor epigástrico irradiado a espalda, náuseas, amilasa elevada.",
     "quizOptions": [
-      { "id": "A", "text": "Reposo digestivo, hidratación y analgesia" },
+      { "id": "A", "text": "Alta con dieta blanda" },
       { "id": "B", "text": "Cirugía inmediata" },
-      { "id": "C", "text": "Alta con dieta blanda" }
+      { "id": "C", "text": "Reposo digestivo, hidratación y analgesia" }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "clinicalPearl": "El tratamiento inicial de la pancreatitis aguda es conservador: reposo digestivo, hidratación y analgesia.",
     "rotation": "Cirugía General",
     "difficulty": "media"
@@ -637,11 +637,11 @@ const miniCases: MiniCase[] = [
     "term": "Perforación de úlcera gástrica",
     "definition": "Varón de 60 años, dolor epigástrico súbito, abdomen en tabla y neumoperitoneo en radiografía.",
     "quizOptions": [
-      { "id": "A", "text": "Cirugía urgente" },
-      { "id": "B", "text": "Tratamiento antibiótico exclusivo" },
+      { "id": "A", "text": "Tratamiento antibiótico exclusivo" },
+      { "id": "B", "text": "Cirugía urgente" },
       { "id": "C", "text": "Observación y dieta absoluta" }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "clinicalPearl": "La perforación de úlcera gástrica es una urgencia quirúrgica que requiere intervención inmediata.",
     "rotation": "Cirugía General",
     "difficulty": "alta"
@@ -665,11 +665,11 @@ const miniCases: MiniCase[] = [
     "term": "Isquemia mesentérica aguda",
     "definition": "Varón de 75 años, fibrilación auricular, dolor abdominal intenso desproporcionado a la exploración.",
     "quizOptions": [
-      { "id": "A", "text": "Cirugía urgente" },
-      { "id": "B", "text": "Anticoagulación oral" },
+      { "id": "A", "text": "Anticoagulación oral" },
+      { "id": "B", "text": "Cirugía urgente" },
       { "id": "C", "text": "Alta con dieta líquida" }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "clinicalPearl": "La isquemia mesentérica aguda es una urgencia vital que requiere cirugía inmediata.",
     "rotation": "Cirugía General",
     "difficulty": "alta"
@@ -693,11 +693,11 @@ const miniCases: MiniCase[] = [
     "term": "Fisura anal crónica",
     "definition": "Mujer de 35 años, dolor anal intenso con la defecación, sangrado escaso y fisura visible en exploración.",
     "quizOptions": [
-      { "id": "A", "text": "Tratamiento tópico con nitroglicerina" },
+      { "id": "A", "text": "Alta sin tratamiento" },
       { "id": "B", "text": "Cirugía inmediata" },
-      { "id": "C", "text": "Alta sin tratamiento" }
+      { "id": "C", "text": "Tratamiento tópico con nitroglicerina" }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "clinicalPearl": "El tratamiento inicial de la fisura anal crónica es conservador con pomadas tópicas relajantes del esfínter.",
     "rotation": "Cirugía General",
     "difficulty": "fácil"
@@ -721,11 +721,11 @@ const miniCases: MiniCase[] = [
     "term": "Cáncer de colon izquierdo",
     "definition": "Varón de 65 años, rectorragia, cambio del ritmo intestinal y pérdida de peso. Colonoscopia: masa en sigma.",
     "quizOptions": [
-      { "id": "A", "text": "Resección quirúrgica programada" },
-      { "id": "B", "text": "Quimioterapia exclusiva" },
+      { "id": "A", "text": "Quimioterapia exclusiva" },
+      { "id": "B", "text": "Resección quirúrgica programada" },
       { "id": "C", "text": "Observación y control" }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "clinicalPearl": "El tratamiento de elección del cáncer de colon es la resección quirúrgica del segmento afectado.",
     "rotation": "Cirugía General",
     "difficulty": "media"
@@ -763,11 +763,11 @@ const miniCases: MiniCase[] = [
     "term": "Síndrome nefrótico",
     "definition": "Varón de 45 años, edemas en miembros inferiores, proteinuria masiva y hipoalbuminemia.",
     "quizOptions": [
-      { "id": "A", "text": "Iniciar diuréticos y restricción de sal" },
+      { "id": "A", "text": "Alta sin tratamiento" },
       { "id": "B", "text": "Administrar antibióticos" },
-      { "id": "C", "text": "Alta sin tratamiento" }
+      { "id": "C", "text": "Iniciar diuréticos y restricción de sal" }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "clinicalPearl": "El manejo inicial del síndrome nefrótico incluye diuréticos y restricción salina; requiere estudio etiológico.",
     "rotation": "Medicina Interna",
     "difficulty": "media"
@@ -777,11 +777,11 @@ const miniCases: MiniCase[] = [
     "term": "Hipercalcemia por hiperparatiroidismo",
     "definition": "Mujer de 60 años, astenia, poliuria, dolor óseo y cálculos renales. Calcemia elevada, PTH alta.",
     "quizOptions": [
-      { "id": "A", "text": "Hidratación y valoración para paratiroidectomía" },
-      { "id": "B", "text": "Administrar calcio oral" },
+      { "id": "A", "text": "Administrar calcio oral" },
+      { "id": "B", "text": "Hidratación y valoración para paratiroidectomía" },
       { "id": "C", "text": "Alta con seguimiento anual" }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "clinicalPearl": "La hipercalcemia sintomática se trata con hidratación y, si es primaria, la paratiroidectomía es el tratamiento definitivo.",
     "rotation": "Medicina Interna",
     "difficulty": "media"
@@ -805,11 +805,11 @@ const miniCases: MiniCase[] = [
     "term": "Crisis hipertensiva",
     "definition": "Varón de 55 años, PA 220/120 mmHg, cefalea intensa y visión borrosa.",
     "quizOptions": [
-      { "id": "A", "text": "Administrar antihipertensivos intravenosos" },
+      { "id": "A", "text": "Solo reposo y observación" },
       { "id": "B", "text": "Alta con ajuste de tratamiento oral" },
-      { "id": "C", "text": "Solo reposo y observación" }
+      { "id": "C", "text": "Administrar antihipertensivos intravenosos" }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "clinicalPearl": "La crisis hipertensiva con daño de órgano diana requiere descenso controlado de la presión con fármacos IV.",
     "rotation": "Medicina Interna",
     "difficulty": "alta"
@@ -833,11 +833,11 @@ const miniCases: MiniCase[] = [
     "term": "Trombosis venosa profunda",
     "definition": "Varón de 65 años, dolor y edema en pierna izquierda, signo de Homans positivo, eco-Doppler confirma trombo.",
     "quizOptions": [
-      { "id": "A", "text": "Iniciar anticoagulación" },
-      { "id": "B", "text": "Alta con medias elásticas" },
+      { "id": "A", "text": "Alta con medias elásticas" },
+      { "id": "B", "text": "Iniciar anticoagulación" },
       { "id": "C", "text": "Administrar antibióticos" }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "clinicalPearl": "El tratamiento de la TVP es la anticoagulación inmediata para prevenir embolia pulmonar.",
     "rotation": "Medicina Interna",
     "difficulty": "media"
@@ -847,11 +847,11 @@ const miniCases: MiniCase[] = [
     "term": "Hiponatremia sintomática",
     "definition": "Mujer de 70 años, confusión, náuseas, Na 118 mmol/L, euvolémica.",
     "quizOptions": [
-      { "id": "A", "text": "Corregir lentamente con solución salina hipertónica" },
+      { "id": "A", "text": "Alta sin tratamiento" },
       { "id": "B", "text": "Restringir líquidos únicamente" },
-      { "id": "C", "text": "Alta sin tratamiento" }
+      { "id": "C", "text": "Corregir lentamente con solución salina hipertónica" }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "clinicalPearl": "La hiponatremia sintomática requiere corrección cuidadosa para evitar mielinólisis central pontina.",
     "rotation": "Medicina Interna",
     "difficulty": "alta"
@@ -875,11 +875,11 @@ const miniCases: MiniCase[] = [
     "term": "Hipertiroidismo",
     "definition": "Mujer de 42 años, pérdida de peso, taquicardia, temblor fino, TSH suprimida, T4 libre elevada.",
     "quizOptions": [
-      { "id": "A", "text": "Iniciar antitiroideos (metimazol o propiltiouracilo)" },
-      { "id": "B", "text": "Administrar hormona tiroidea" },
+      { "id": "A", "text": "Administrar hormona tiroidea" },
+      { "id": "B", "text": "Iniciar antitiroideos (metimazol o propiltiouracilo)" },
       { "id": "C", "text": "Alta sin tratamiento" }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "clinicalPearl": "El hipertiroidismo se trata con antitiroideos, betabloqueantes y, en algunos casos, yodo radiactivo o cirugía.",
     "rotation": "Medicina Interna",
     "difficulty": "media"
@@ -889,11 +889,11 @@ const miniCases: MiniCase[] = [
     "term": "Neumonía adquirida en la comunidad",
     "definition": "Varón de 59 años, fiebre, tos productiva, crepitantes en base pulmonar derecha, infiltrado en Rx.",
     "quizOptions": [
-      { "id": "A", "text": "Iniciar antibiótico empírico (amoxicilina-clavulánico o levofloxacino)" },
-      { "id": "B", "text": "Alta con antipiréticos" },
+      { "id": "A", "text": "Alta con antipiréticos" },
+      { "id": "B", "text": "Iniciar antibiótico empírico (amoxicilina-clavulánico o levofloxacino)" },
       { "id": "C", "text": "Solo oxígeno" }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "clinicalPearl": "La neumonía comunitaria requiere antibiótico empírico precoz para reducir complicaciones.",
     "rotation": "Medicina Interna",
     "difficulty": "media"
@@ -917,11 +917,11 @@ const miniCases: MiniCase[] = [
     "term": "Síndrome hepatorrenal",
     "definition": "Varón de 58 años, cirrosis, ascitis, deterioro renal progresivo, Na bajo y creatinina elevada.",
     "quizOptions": [
-      { "id": "A", "text": "Vasoconstrictores y albúmina" },
-      { "id": "B", "text": "Diuréticos de asa en monoterapia" },
+      { "id": "A", "text": "Diuréticos de asa en monoterapia" },
+      { "id": "B", "text": "Vasoconstrictores y albúmina" },
       { "id": "C", "text": "Alta con dieta baja en sal" }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "clinicalPearl": "El síndrome hepatorrenal se trata con vasoconstrictores (terlipresina) y albúmina; el trasplante hepático es la solución definitiva.",
     "rotation": "Medicina Interna",
     "difficulty": "alta"
@@ -931,11 +931,11 @@ const miniCases: MiniCase[] = [
     "term": "Trombocitopenia inmune primaria (PTI)",
     "definition": "Mujer de 29 años, petequias, equimosis, plaquetas 18.000/µl, sin anemia ni leucopenia.",
     "quizOptions": [
-      { "id": "A", "text": "Iniciar corticoides sistémicos" },
+      { "id": "A", "text": "Alta sin tratamiento" },
       { "id": "B", "text": "Transfusión de plaquetas" },
-      { "id": "C", "text": "Alta sin tratamiento" }
+      { "id": "C", "text": "Iniciar corticoides sistémicos" }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "clinicalPearl": "El tratamiento inicial de la PTI sintomática es con corticoides; las transfusiones se reservan para sangrado grave.",
     "rotation": "Medicina Interna",
     "difficulty": "media"
@@ -959,11 +959,11 @@ const miniCases: MiniCase[] = [
     "term": "Bronquiolitis aguda",
     "definition": "Lactante de 4 meses, tos, dificultad respiratoria, sibilancias y tiraje subcostal. SatO₂ 92%.",
     "quizOptions": [
-      { "id": "A", "text": "Oxigenoterapia y soporte respiratorio" },
-      { "id": "B", "text": "Antibióticos de amplio espectro" },
+      { "id": "A", "text": "Antibióticos de amplio espectro" },
+      { "id": "B", "text": "Oxigenoterapia y soporte respiratorio" },
       { "id": "C", "text": "Alta con control ambulatorio" }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "B",
     "clinicalPearl": "El tratamiento de la bronquiolitis es de soporte; los antibióticos no están indicados salvo sobreinfección.",
     "rotation": "Pediatría",
     "difficulty": "media"
@@ -973,11 +973,11 @@ const miniCases: MiniCase[] = [
     "term": "Fiebre sin foco en lactante menor",
     "definition": "Lactante de 2 meses, fiebre de 38,5°C sin foco aparente en la exploración.",
     "quizOptions": [
-      { "id": "A", "text": "Ingreso para estudio y antibioterapia empírica" },
+      { "id": "A", "text": "Antivirales orales" },
       { "id": "B", "text": "Alta con control domiciliario" },
-      { "id": "C", "text": "Antivirales orales" }
+      { "id": "C", "text": "Ingreso para estudio y antibioterapia empírica" }
     ],
-    "correctAnswerId": "A",
+    "correctAnswerId": "C",
     "clinicalPearl": "En menores de 3 meses, la fiebre sin foco requiere ingreso y antibioterapia empírica por riesgo de sepsis.",
     "rotation": "Pediatría",
     "difficulty": "alta"

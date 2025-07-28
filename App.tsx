@@ -211,7 +211,7 @@ const App: React.FC = () => {
         
         <footer className="text-center mt-16 text-sm text-slate-500">
             <p>Contenido basado en datos estáticos. Verifica siempre la información con fuentes confiables.</p>
-            <p>Desarrollado para estudiantes de medicina.</p>
+            <p>Desarrollado para estudiantes de medicina. Contacta con ceuemumu@gmail.com si encuentras algún error o problema.</p>
         </footer>
 
       </main>

@@ -88,8 +88,8 @@ const App: React.FC = () => {
       <main className="container mx-auto px-4 py-8">
         <div className="flex justify-center mb-6 z-10">
             <img 
-                src="https://sedem.org/wp-content/uploads/2025/07/sedem2-trasparente.png" 
-                alt="SEDEM - Sociedad Española de Educación Médica y de las Ciencias de la Salud" 
+                src="https://www.um.es/image/layout_set_logo?img_id=46535218&t=1754040116798" 
+                alt="Centro de Estudios en Educación Médica" 
                 className="h-16 sm:h-20 object-contain"
             />
         </div>

@@ -210,6 +210,9 @@ const App: React.FC = () => {
         )}
         
         <footer className="text-center mt-16 text-sm text-slate-500">
+            <p className="mb-4">
+                ¿Te gusta la app? <a href="https://forms.gle/LFu69mpxDF1E5voX8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-semibold">¡Ayúdanos a mejorarla con esta breve encuesta!</a>
+            </p>
             <p>Contenido basado en datos estáticos. Verifica siempre la información con fuentes confiables.</p>
             <p>Desarrollado para estudiantes de medicina. Contacta con ceuemumu@gmail.com si encuentras algún error o problema.</p>
         </footer>

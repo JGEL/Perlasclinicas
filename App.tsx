@@ -89,7 +89,7 @@ const App: React.FC = () => {
         <div className="flex justify-center mb-6 z-10">
             <img 
                 src="https://www.um.es/image/layout_set_logo?img_id=46535218&t=1754040116798" 
-                alt="Centro de Estudios en Educación Médica" 
+                alt="Centro de Estudios en Educación Médica, Universidad de Murcia" 
                 className="h-16 sm:h-20 object-contain"
             />
         </div>

@@ -4,7 +4,7 @@ La aplicación se llama "Perlas para la Práctica Clínica" y es una herramienta
 
 Modo Flashcards:
 Presenta tarjetas de estudio con un término médico en el anverso (p. ej., "Hipocalcemia").
-Al hacer clic, la tarjeta se voltea para mostrar la definición del término.
+Al hacer clic, la tarjeta se voltea para mostrar la definición del término, así como una perla diagnóstica y otra ce tratamiento.
 En el reverso, hay un botón con un icono de estetoscopio que, al presionarlo, revela la "Perla Clínica" asociada, ofreciendo un consejo práctico y memorable.
 
 Modo Mini Casos:

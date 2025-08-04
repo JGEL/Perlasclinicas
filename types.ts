@@ -3,6 +3,8 @@ export interface Flashcard {
   id: string;
   term: string;
   definition: string;
+  datoDx: string;
+  datoTto: string;
   clinicalPearl: string;
   rotation: string;
   difficulty: string;
